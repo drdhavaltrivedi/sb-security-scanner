@@ -1,0 +1,10 @@
+# never commit scan output or secrets
+sb-security-report/
+*-report/
+*.sarif
+*.env
+.env*
+findings.tsv
+routes.csv
+__pycache__/
+*.pyc
